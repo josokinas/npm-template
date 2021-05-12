@@ -25,3 +25,11 @@ To install and switch to a required version run:
 #### Lint code
 
     npm run lint
+
+### Production mode
+
+#### Make a release
+
+    npm run release
+
+This will bump a version, also add a CHANGELOG entry based on commits between releases.

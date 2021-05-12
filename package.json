@@ -19,7 +19,8 @@
     "lint:commit": "commitlint --from origin/main --to HEAD --verbose",
     "lint:es": "eslint . --ignore-path .gitignore --max-warnings 0",
     "lint:style": "stylelint '**/*.{,s}css' --ignore-path .gitignore --max-warnings 0",
-    "lint:prettier": "prettier . --check --ignore-path .gitignore"
+    "lint:prettier": "prettier . --check --ignore-path .gitignore",
+    "release": "HUSKY=0 standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.3",
@@ -33,6 +34,7 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.2.0",
     "sass": "^1.32.12",
+    "standard-version": "^9.3.0",
     "stylelint": "^13.13.1",
     "stylelint-config-sass-guidelines": "^8.0.0"
   }
