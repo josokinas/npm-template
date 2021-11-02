@@ -34,7 +34,7 @@
     "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "sass": "^1.42.1",
-    "standard-version": "^9.3.1",
+    "standard-version": "^9.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-sass-guidelines": "^8.0.0"
   }
